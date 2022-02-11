@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=1360">
+		<title></title>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<!--font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+		<!--popup-->
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/popup.js"></script>	
+		<!--tab-->
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/tab_script.js"></script>
+	</head>
+	<body>
+		<!--popup_S-->
+		<div id="popup_btn">
+			<a href="index.html#popup_btn"><img src="images/main/Help_popup_btn.png" alt="popup_btn"></a>
+		</div>
+		<div class="popup">
+			<ul class="popup_icon">
+				<li><a href="index.html#popup_btn"><img src="images/popup/popup_icon_1.png" alt="popup_icon"></a></li>
+				<li class="close"><a href="index.html#popup_btn"><img src="images/popup/popup_icon_2.png" alt="popup_icon"></a></li>
+			</ul>
+			<p class="popup_notice">[Somebody 고객센터]<br>평일 10:00 - 18:00 (주말 및 공휴일 제외)</p>
+			<div class="popup_inbox">
+				<p class="popup_text">
+					<b>Somebody</b><br>
+					안녕하세요!<br>
+					somebody 고객센터입니다.
+					아래 문의하기를 버튼을 누르면
+					상담원과 연결해 드리겠습니다.<br>
+					<span>
+						*평일 10:00 - 18:00<br>
+						(주말 및 공휴일 제외)
+					</span> 
+				</p>
+				<p class="popup_text">
+					<b>Somebody</b><br>
+					추가 지원이 필요한 경우 상단에
+					위치한 기타 문의 옵션을 확인해
+					주세요. 
+				</p>
+				<div class="popup_inbox_icon">
+					<a href="index.html#popup_btn"><img src="images/popup/popup_icon_3.png" alt="popup_icon"></a>
+				</div>
+			</div>
+			<div class="popup_send_btn_wrap">
+				<div class="popup_send_btn">
+					<a href="index.html#popup_btn">문의하기</a>
+				</div>
+			</div>
+		</div>
+		<!--top_S-->
+		<div id="top"><!--header-->
+			<div id="header"><!--scroll-->
+				<div class="b"><!--boder_bottom-->
+					<div id="header_scroll"><!--1320px/70px-->
+						<h1 class="logo">
+							<a href="https://imhyeonjin.github.io/somebody/"><img src="images/main/main_logo fixed.png" alt="main_logo"></a>
+						</h1>
+						<ul id="util">
+							<li><a href="index.html#header">로그인</a></li>
+							<li><a href="index.html#header">I</a></li>
+							<li><a href="index.html#header">크루 회원가입</a></li>
+						</ul>
+						<ul id="gnb">
+							<li><a href="#">심리상담 받기</a></li>
+							<li><a href="#">프로그램</a></li>
+							<li><a href="#">스토리</a></li>
+							<li><a href="#">도움말</a></li>
+						</ul>
+					</div>						
+				</div>				
+			</div>
+		</div>
+		<!--container_1_S-->
+		<div id="container_1">
+			<h2 class="section_head_txt">도움말</h2>
+			<div id="section">
+				<ul	id="box1">
+					<li	class="tap tablink opacity" onclick="openBoard(event,'Board01')">FAQ</li>
+					<li	class="tap tablink" onclick="openBoard(event,'Board02')">결제 및 환불</li>
+					<li	class="tap tablink" onclick="openBoard(event,'Board03')">기타</li>
+				</ul>							
+				<div id="Board01"	class="box1_1	board">
+					<div class="board_deco">
+						<div class="accordion">썸바디란 무엇인가요?
+						</div>
+						<p class="panel"><br>
+							Somebody는 ‘Everybody Is Somebody’란 노래 가사에서 시작되었습니다. 
+							모두 소중하고 특별하단 의미를 담은 Somebody는 여러분 있는 그대로의 모습을 
+							보살필 수 있는 멘탈케어 서비스입니다. 전문 심리상담사의 1:1 상담 서비스와 
+							체계적인 마음 회복 커리큘럼, 주변 정신의학과 연결 서비스, 따듯한 마음을 
+							공유하는 커뮤니티 등 다양한 서비스를 제공하고 있습니다. Somebody 어플을 
+							통해서 보다 편하게 서비스를 이용하실 수 있습니다.<br><br> 
+							스스로의 가치를 깨달을 수 있는 소중한 경험을 somebody를 통해 함께 하세요!
+						</p>								
+					</div>
+					<div class="board_deco">
+						<div class="accordion">프로그램은 어떻게 진행되나요?</div>
+						<p class="panel"><br>
+							썸바디는 ‘Everybody Is Somebody’란 노래 가사에서 시작되었습니다. 
+							모두 소중하고 특별하단 의미를 담은 썸바디는 여러분 있는 그대로의 모습을 
+							보살필 수 있는 멘탈케어 서비스입니다. 전문 심리상담사의 1:1 상담 서비스와 
+							체계적인 마음 회복 커리큘럼, 주변 정신의학과 연결 서비스, 따듯한 마음을 
+							공유하는 커뮤니티 등 다양한 서비스를 제공하고 있습니다. 썸바디 어플을 
+							통해서 보다 편하게 서비스를 이용하실 수 있습니다.<br><br> 
+							스스로의 가치를 깨달을 수 있는 소중한 경험을 썸바디를 통해 함께 하세요!
+						</p>								
+					</div>
+					<div class="board_deco">
+						<div class="accordion">어떤 프로그램을 수강해야 하나요?</div>
+						<p class="panel"><br>
+							썸바디 커리큘럼을 참고하세요!
+						</p>								
+					</div>
+					<div class="board_deco">
+						<div class="accordion">익명 보장이 되나요?</div>
+						<p class="panel"><br>
+							Somebody는 ‘Everybody Is Somebody’란 노래 가사에서 시작되었습니다. 
+							모두 소중하고 특별하단 의미를 담은 Somebody는 여러분 있는 그대로의 모습을 
+							보살필 수 있는 멘탈케어 서비스입니다. 전문 심리상담사의 1:1 상담 서비스와 
+							체계적인 마음 회복 커리큘럼, 주변 정신의학과 연결 서비스, 따듯한 마음을 
+							공유하는 커뮤니티 등 다양한 서비스를 제공하고 있습니다. Somebody 어플을 
+							통해서 보다 편하게 서비스를 이용하실 수 있습니다.<br><br> 
+							스스로의 가치를 깨달을 수 있는 소중한 경험을 somebody를 통해 함께 하세요!
+						</p>								
+					</div>
+					<div class="board_deco">
+						<div class="accordion">해외에서도 이용할 수 있나요?</div>
+						<p class="panel"><br>
+							썸바디는 ‘Everybody Is Somebody’란 노래 가사에서 시작되었습니다. 
+							모두 소중하고 특별하단 의미를 담은 썸바디는 여러분 있는 그대로의 모습을 
+							보살필 수 있는 멘탈케어 서비스입니다. 전문 심리상담사의 1:1 상담 서비스와 
+							체계적인 마음 회복 커리큘럼, 주변 정신의학과 연결 서비스, 따듯한 마음을 
+							공유하는 커뮤니티 등 다양한 서비스를 제공하고 있습니다. 썸바디 어플을 
+							통해서 보다 편하게 서비스를 이용하실 수 있습니다.<br><br> 
+							스스로의 가치를 깨달을 수 있는 소중한 경험을 somebody를 통해 함께 하세요!
+						</p>								
+					</div>
+				</div>							
+				<div	id="Board02" class="box1_1	board" style="display:none;">
+					<div class="board_deco">
+						<div class="accordion">프로그램 신청기간은 어떻게 알 수 있나요?</div>
+						<p class="panel"><br>
+							현재 썸바디 프로그램은 매주 토요일 새로운 프로그램 신청이 시작됩니다. 
+							신청한 프로그램은 신청 마감일 다음 주 월요일부터 시작되며, 썸바디 프로그램 
+							첫 날에 작성한 설문에 따라서 마음 목표에 맞는 상담 트레이너로 배정받으실 
+							수 있습니다.<br><br>
+							일반적으로 금요일에 마감되나 선착순 모집으로 인해 조기에 마감될 수 있습니다.
+						</p>								
+					</div>
+					<div class="board_deco">
+						<div class="accordion">결제 해지는 어떻게 하나요?</div>
+						<p class="panel"><br>
+							다섯 가지 마음 돌보기 단품 프로그램 진행 중 환불을 원하시는 경우, 
+							환불 신청 일차에 따라 환불이 가능합니다. 단, 환불 신청은 프로그램 시작일 
+							기준 1주차 금요일까지 가능하며, 닉네임/ 연락처/ 구체적인 환불 사유와 함께 
+							썸바디 고객센터로 환불 의사를 전달해주셔야 합니다. 환불 금액은 환불 신청 
+							일자를 기준으로 산정되며 자세한 내용은 고객센터에 문의해 주세요.<br><br>
+							※ 패키지 상품의 경우, 고객선터에 직접 문의 바랍니다.
+						</p>								
+					</div>
+					<div class="board_deco">
+						<div class="accordion">결제됐는데, 이용하지는 않았어요. 환불이 가능할까요?</div>
+						<p class="panel"><br>
+							프로그램 결제 후, 이용 내역이 없으시면 전액 환불이 가능합니다. 가입하신 계정 
+							확인을 위해 썸바디 고객센터 (1:1문의)로 환불 요청해주시면 확인 후 안내해드리겠습니다.
+							<br><br>※ 쿠폰으로 프로그램을 등록하신 경우엔 환불이 불가합니다.
+						</p>								
+					</div>
+				</div>
+				<div	id="Board03" class="box1_1	board" style="display:none;">
+					<div class="board_deco">
+						<div class="accordion">FAQ에 없는 내용은 어디에서 물어볼 수 있나요?</div>
+						<p class="panel"><br>
+							썸바디 고객센터로 문의주시면 신속히 답변드리겠습니다. :)
+						</p>								
+					</div>
+					<div class="board_deco">
+						<div class="accordion">새로운 프로그램 소식은 어떻게 알 수 있나요?</div>
+						<p class="panel"><br>
+							카카오톡 플러스친구에 @썸바디 를 추가하시면 신규 프로그램 소식을 받으실 수 
+							있습니다!
+						</p>								
+					</div><div class="board_deco">
+						<div class="accordion">상담 내용은 수강 기간이 끝나면 사라지나요?</div>
+						<p class="panel"><br>
+							개인 상담 내용은 프로그램이 종료 후에도 언제든지 어플에서 확인하실 수 있습니다.
+						</p>								
+					</div><div class="board_deco">
+						<div class="accordion">마음진단 테스트는 어디서 확인할 수 있나요?</div>
+						<p class="panel"><br>
+							마음진단 테스트 결과는 썸바디 어플 > 프로필 > 마음진단 보고서에서 확인하실 수 있습니다.						</p>								
+					</div>				
+				</div>
+			</div>
+		</div>
+	
+		<!--footer_S-->
+		<div id="footer_wrap">
+			<div id="footer">
+				<div class="info_wrap">
+					<!--<h4 class="footer_logo"><img src="images/main/footer_logo.png" alt="footer_logo"></h4>-->
+					<h4 class="footer_logo">(주) 썸바디</h4>
+					<ul class="info">
+						<li><a href="index.html#footer">회사소개</a></li>
+						<li><a href="index.html#footer">인재채용</a></li>
+						<li><a href="index.html#footer">서비스 이용약관</a></li>
+						<li><a href="index.html#footer">개인정보 처리 방침</a></li>
+						<li><a href="index.html#footer">공지사항</a></li>
+						<li><a href="index.html#footer">도움말</a></li>
+					</ul>
+					<p class="footer_text">
+						㈜ 썸바디 | 대표 임현진 | 서울특별시 종로구 사직로 161, A타워 7층 701호 | 사업자등록번호 123-45-67890 | 통신판매업 2022-서울종로-9123<br>
+            © Somebody. co., Ltd.All Rights Reserved.
+					</p>
+				</div>
+				<div class="footer_icon_wrap">
+					<ul class="footer_icon footer_icon_b">
+						<li><a href="index.html#footer"><img src="images/main/footer_mail_icon_hover.png" alt="mail_icon"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_1_hover.png" alt="sns_icon_1"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_2_hover.png" alt="sns_icon_2"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_3_hover.png" alt="sns_icon_3"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_4_hover.png" alt="sns_icon_4"></a></li>
+					</ul>
+					<ul class="footer_icon footer_icon_a">
+						<li><a href="index.html#footer"><img src="images/main/footer_mail_icon.png" alt="mail_icon"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_1.png" alt="sns_icon_1"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_2.png" alt="sns_icon_2"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_3.png" alt="sns_icon_3"></a></li>
+						<li><a href="index.html#footer"><img src="images/main/footer_sns_icon_4.png" alt="sns_icon_4"></a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
