@@ -136,29 +136,31 @@ body{
 }
 #util{
 	float: right;
-	padding-top: 12px;
+	padding-top: 14px;
 }
 #util li{
 	float: left;
 	padding-left: 6px;
 }
 #util li a{
-	font-size: 13px;
+	display: block;
+	font-size: 15px;
 	font-weight: 500;
 	color: #fffce4;
 }
 .b #util li a{
-	font-size: 13px;
+	display: block;
+	font-size: 15px;
 	font-weight: 500;
 	color: #757575;
 }
 #util li:nth-child(2){cursor: none;}
 #util li:nth-child(2) a{font-weight: 100;}
 #util li:nth-child(3) a{color: #ecff91;}
-.b #util li:nth-child(3) a{color: #3fc963;}
+.b #util li:nth-child(3) a{color: #333;}
 #gnb{
 	float: right;
-	width: 410px;
+	width: 400px;
 	padding-top: 13px;
 }
 #gnb li{
@@ -211,7 +213,6 @@ body{
 	position:relative;
 	padding:20px 0 50px;
 	display:inline-block;
-	
 }
 #box1>li{
 	float:left;
